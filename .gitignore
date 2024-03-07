@@ -9,3 +9,12 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+vcpkg_installed/
+build/
+.vscode/
+
+chat.grpc.pb.cc
+chat.grpc.pb.h
+chat.pb.cc
+chat.pb.h
