@@ -17,6 +17,6 @@ cmake -S . -B .\build\ -G "Visual Studio 17 2022" -T host=x64 -A x64
 cmake --build .\build\ --target ALL_BUILD --config Debug --
 
 # Run the project
-.\build\Debug\server.exe
-.\build\Debug\client.exe
+.\build\Debug\server.exe --port=50051
+.\build\Debug\client.exe --host=localhost:50051 --username=user
 ````
